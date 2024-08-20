@@ -12,6 +12,8 @@
 .logo{
     width: 180px;
     height: 50px;
+    margin-left: 40%;
+    padding: 20px;
 }
 
 .nav{
@@ -47,6 +49,20 @@ body{
     border: 1px solid rgba(178, 178, 178, 0.3);
 }
 
-.marquee{
-    margin-top: 10px;
+.marquee1{
+    padding: 20px;
+}
+
+/* .news-home{
+    width: 50%;
+    height: 1000px;
+    border-radius: 10px;
+} */
+
+.news1{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
 }
