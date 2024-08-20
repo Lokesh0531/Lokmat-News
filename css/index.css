@@ -1,7 +1,6 @@
 .header{
     padding: 10px;
     border-radius: 10px;
-    margin-left: 40px;
     text-decoration: none;
 }
 
@@ -10,17 +9,44 @@
     text-decoration: none
 }
 
+.logo{
+    width: 180px;
+    height: 50px;
+}
+
 .nav{
-    width: 100%;
+    width: 70%;
     height: 40px;
-    background-color: rgb(202, 202, 202);
-    border-radius: 30px;
-    text-align: center;
+    margin-left: 180px;
+    /* background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    text-align: center; */
+
+
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(216, 216, 216, 0.3);
     
     
 }
 
+body{
+    background-color: white;
+}
+
 .main{
     width: 100%;
-    background-color: red;
+    height: 2480px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(178, 178, 178, 0.3);
+}
+
+.marquee{
+    margin-top: 10px;
 }
