@@ -4,9 +4,47 @@
     text-decoration: none;
 }
 
+/* Logo Lokmat CSS Start */
+.logo{
+    width: 250px;
+    height: 60px;
+    margin-left: 39%;
+    padding-bottom: 0px;
+}
+/* Logo Lokmat CSS End */
+
+
+/* Nav Bar CSS Start */
+.nav{
+    display: flex;
+    padding-top: 1rem;   
+}
+
 .nav-item{
-    margin-left: 60px;
-    text-decoration: none
+    text-decoration: none;
+    margin-right: 5rem;
+    font-family:'Times New Roman', Times, serif; 
+    color: black;  
+}
+
+.nav{
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(216, 216, 216, 0.3);  
+}
+/* Nav Bar CSS End */
+
+
+.date{
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 80, 80);
+    font-size: small;
 }
 
 .logo{
@@ -16,24 +54,6 @@
     padding: 20px;
 }
 
-.nav{
-    width: 70%;
-    height: 40px;
-    margin-left: 180px;
-    /* background-color: rgb(202, 202, 202);
-    border-radius: 5px;
-    text-align: center; */
-
-
-
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(216, 216, 216, 0.3);
-    
-    
-}
 
 body{
     background-color: white;
@@ -53,12 +73,6 @@ body{
     padding: 20px;
 }
 
-/* .news-home{
-    width: 50%;
-    height: 1000px;
-    border-radius: 10px;
-} */
-
 .news1{
     width: 20rem;
     height: 15rem;
@@ -66,27 +80,11 @@ body{
     float: left;
     margin-right: 50px;
 }
-/* .nws1 {
-    position: relative;
-    width: 100%;
-    height: 300px;
-  }
-
-  .text-overlay {
-    
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-     
-} */
 
 .imagec1{
-    /* text-align: center; */
     background-image: url("/img/nws.png") ;
     background-repeat: no-repeat;
-  background-size: cover;
-    /* background: no-repeat; */
-    /* background: cover; */
+    background-size: cover;
     height: 250px;
     width: 100%;
     display: flex;
