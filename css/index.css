@@ -4,49 +4,57 @@
     text-decoration: none;
 }
 
+/* Logo Lokmat CSS Start */
+.logo{
+    width: 250px;
+    height: 60px;
+    margin-left: 39%;
+    padding-bottom: 0px;
+}
+/* Logo Lokmat CSS End */
+
+
+/* Nav Bar CSS Start */
 .nav{
     display: flex;
-    padding-top: 1rem;  
-    
+    padding-top: 1rem;   
 }
 
 .nav-item{
     text-decoration: none;
     margin-right: 5rem;
-    font-family:'Times New Roman', Times, serif;
-    
-    
-}
-
-.nav-item:hover{
-    box-shadow: 1px 1px 1px rgb(104, 104, 104);
-}
-
-.logo{
-    width: 180px;
-    height: 50px;
-    margin-left: 40%;
-    padding-bottom: 20px;
+    font-family:'Times New Roman', Times, serif; 
+    color: black;  
 }
 
 .nav{
     width: 100%;
     height: 40px;
-    /* background-color: rgb(202, 202, 202);
-    border-radius: 5px;
-    text-align: center; */
     justify-content: center;
-
-
-
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(216, 216, 216, 0.3);
-    
-    
+    border: 1px solid rgba(216, 216, 216, 0.3);  
 }
+/* Nav Bar CSS End */
+
+
+/* marquee headline CSS start */
+.marquee1{
+    padding: 20px;
+}
+/* marquee headline CSS start */
+
+
+.date{
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 80, 80);
+    font-size: small;
+}
+
+
 
 body{
     background-color: white;
@@ -62,15 +70,6 @@ body{
     border: 1px solid rgba(178, 178, 178, 0.3);
 }
 
-.marquee1{
-    padding: 20px;
-}
-
-/* .news-home{
-    width: 50%;
-    height: 1000px;
-    border-radius: 10px;
-} */
 
 .news1{
     width: 20rem;
@@ -99,6 +98,10 @@ body{
     border: 1px solid rgba(107, 107, 107, 0.3);
 }
 
+.twitter-id{
+    font-size: small;
+}
+
 .div-img{
     width: 9.5rem;
     border-radius: 10px;
@@ -109,17 +112,19 @@ body{
     width: 2rem;
     height: 2rem;
     float: left;
-    margin-right: 0.5rem;
+    margin-right: 0.2rem;
     font-size: 100px
 }
 
 .twitter-div-font{
     font-size: 10PX;
-    padding: 0.5rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     margin-top: 1rem;
 }
 
 .youtube{
+    float: right;
     width: 30rem;
     border-radius: 10px;
     margin: 2rem;
