@@ -38,7 +38,7 @@ body {
 justify-align:center ;
     width: 100%;
     height: 100%;
-    background-color: rgba(129,129,129);
+    background-color: rgba(245,254,248);
     border-radius: 10px;
     box-shadow: 100 px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -62,7 +62,7 @@ h4 {
     line-height: 1.5;
 }
 
-/* ///// inputs /////*/
+
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
     font-size: 0.75em;
@@ -77,7 +77,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     width: 293px;
     margin: 1rem 0;
     position: relative;
-    border-radius: 4px;
+    border-radius: 650 px%;
 }
 
 @media only screen and (max-width: 768px){
@@ -105,12 +105,12 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 input,
 textarea {
     padding: 30px;
-    border: 0;
+    border: 0%;
     width: 100%;
     font-size: 1rem;
     background-color: #2d2d2d;
     color: white;
-    border-radius: 4px;
+    border-radius: 22px;
 }
 
 input:focus,
@@ -141,7 +141,7 @@ textarea {
     display: inline-block;
     background-color: #4b8cfb;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     cursor: pointer;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
               0 2px 10px 0 rgba(0,0,0,0.07);
@@ -149,11 +149,7 @@ textarea {
     transition: all 300ms ease;
 }
 
-.submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
-}
+
 
 @media (max-width: 768px) {
     .submit-btn {
@@ -177,4 +173,9 @@ input[type=checkbox]:checked + label {
     height: 50px;
     margin-left: 40%;
     padding: 20px;
+}
+.footer{
+    padding: 8px;
+    border-radius: 100px;
+    text-decoration: revert-layer;
 }
