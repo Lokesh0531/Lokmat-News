@@ -55,6 +55,13 @@ font-size: larger;
     width: 50%;
 }
 
+.bnews11{
+    align-content:baseline;
+    padding: 0.2rem;
+    width: 230px;
+    height: 150px;
+}
+
 .thumbnail51{
     width: 700px;
     }
