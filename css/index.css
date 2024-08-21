@@ -41,7 +41,7 @@ body{
 
 .main{
     width: 100%;
-    height: 2480px;
+    height: 1500px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -73,9 +73,41 @@ body{
 }
 
 .twitter{
+    float: left;
     margin-left: 20px;
     width: 10rem;
     height: 14rem;
-    border: 2px solid black;
-    border-radius: 30px;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(107, 107, 107, 0.3);
+}
+
+.div-img{
+    width: 9.5rem;
+    border-radius: 10px;
+    padding: 5px
+}
+
+.icon-twitter{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 0.5rem;
+    font-size: 100px
+}
+
+.twitter-div-font{
+    font-size: 10PX;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.youtube{
+    width: 30rem;
+    border-radius: 10px;
+    margin: 2rem;
 }
