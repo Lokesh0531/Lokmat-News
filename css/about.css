@@ -48,12 +48,12 @@
 }
 
 body{
-    background-color: rgba(252, 248, 248, 0);
+    background-color: rgba(245, 237, 237, 0);
 }
 
 .main{
     width: 100%;
-    height: 2480px;
+    height: 1700px;
     background-color: rgba(244, 240, 240, 0.409);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
