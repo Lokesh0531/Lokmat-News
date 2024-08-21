@@ -26,12 +26,13 @@
 }
 
 
-
+{
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     border: 1px solid rgba(216, 216, 216, 0.3);
+}
     
     
 
@@ -68,5 +69,28 @@ body{
 }
 .a1{
     float: left;
-    margin-right: 20px;
+    margin-right: 40px;
 }
+.vijay{
+    float: left;
+    margin-right: 40px;
+}
+.rajendra{
+    float: left ;
+    margin-right: 40px;
+}
+
+.devendra{
+    float: left ;
+    margin-right: 40px;
+}
+.rishi{
+    float: left ;
+    margin-right: 40px;
+}
+
+.ashok{
+    float: left ;
+    margin-right: 40px;
+}
+
