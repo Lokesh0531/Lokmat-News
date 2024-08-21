@@ -87,13 +87,18 @@ body{
   background-size: cover;
     /* background: no-repeat; */
     /* background: cover; */
-    height: 300px;
+    height: 250px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     
 }
 
 .ours{
     text-align: center;
+    color: white;  
+    font-size: 8em;
     
 }
 
@@ -105,10 +110,17 @@ body{
 
 .box{
     width: 50%;
+    height: 8rem;
     padding: 8%; 
     text-align: center;
-    border: 6px solid #ffffff;
+    /* border: 6px solid #ffffff; */
     border-radius: 20px;
-    background-color: #eaf6f6;
+    margin-right: 20px;
+    background-color: #f5f3f4;
+    box-shadow: 2px 2px 2px rgb(144, 144, 144);
 }
 
+.text1{
+ font-size: 30px;
+ color: #E31E24;
+}
