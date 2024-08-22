@@ -60,13 +60,13 @@ body {
 
 .main{
 justify-align:center ;
-    width: 100%;
+    width: 96%;
     height: 100%;
     background-color:   #FFFFFF;
     border-radius: 10px;
     box-shadow: 100 px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(178, 178, 178, 0.3);
+    border: 30px solid rgba(178, 178, 178, 0.3);
 }
 
 
@@ -195,4 +195,17 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
+}
+.contact-info {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+.gray-bg-1 {
+  background-color: var(--px-gray-1);
+}
+.map{
+    
+   margin-left:30%;
+    margin-top: -310px;
 }
