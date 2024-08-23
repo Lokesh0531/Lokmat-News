@@ -47,19 +47,28 @@
     font-size: small;
 }
 
- 
-.thumbnail1{
-    display: flex;
-    width: 100%;
-}
+ body{
+    position: relative;
+ }
 
 .thumbnail{
-    margin: right 20px;
+    /* margin: right 20px; */
     padding: 0px;
     /* display: flex; */
-    width: 506px;
-    height: 300px;
+    width: 31.625rem;
+    height: 18.75rem;
     background-size: cover;
+    
+}
+
+.thumbnail1{
+    display: flex;
+    list-style: none;
+    /* height: 50%;
+    width: 94%; */
+    left: 0;
+    padding: 0%;
+    margin-left: 0%;
 }
 
 .bnewsm{
