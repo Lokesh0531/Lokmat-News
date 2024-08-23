@@ -19,7 +19,8 @@
 /* Nav Bar CSS Start */
 .nav{
     display: flex;
-    padding-top: 1rem;   
+    padding-top: 1rem;  
+    
 }
 
 .nav-item{
@@ -27,6 +28,7 @@
     margin-right: 5rem;
     font-family:'Times New Roman', Times, serif; 
     color: black;  
+    font-family: Verdana, arial, sans-serif; 
 }
 
 .nav{
@@ -62,8 +64,13 @@
     box-shadow: 1px 1px 1px rgb(185, 185, 185);
 }
 
+.news-data{
+    font-family: Verdana, arial, sans-serif;
+}
+
 body{
     font-size: 1.1rem;
+   
 }
 
 .sec-data{
@@ -92,6 +99,7 @@ body{
 
 .marquee1{
     padding: 20px;
+    font-family: Verdana, arial, sans-serif;
 }
 
 .BJP{
@@ -124,17 +132,18 @@ body{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     border: 1px solid rgba(107, 107, 107, 0.3);
+    font-family: Verdana, arial, sans-serif;
 }
 
 .twitter-div-font{
-    font-size: 10PX;
+    font-size: 0.5rem;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
     margin-top: 1rem;
 }
 
 .twitter-id{
-    font-size: small;
+    font-size: 0.6rem;
 }
 
 .div-img{
@@ -197,9 +206,3 @@ div.gallery {
  
 }
 
-.btn_live{
-    width: 2rem;
-    height: 1rem;
-    background-color: #EAF3FB;
-    background-color: red;
-}
