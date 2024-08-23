@@ -50,6 +50,7 @@
  
 .thumbnail1{
     display: flex;
+    width: 100%;
 }
 
 .thumbnail{
@@ -76,8 +77,8 @@ font-size: larger;
     float: left;
     border: solid;
     margin-block-end: 3vh;
-     height: 35%;
-    width: 85%;
+     height: 40%;
+    width: 98%;
 }
 
 .bnews11{
@@ -109,12 +110,16 @@ font-size: larger;
         font-size: 2rem;
         padding: 0.6%;
         text-align: center;
-        position: relative ; top: 0.8rem;
+        position: relative ; top: 0.6rem;
     }
 
     .contain p{
         position: relative;
         top: 10px;
         left: 10px;
+    }
+
+    .co_contain{
+        display: flex;
     }
     
