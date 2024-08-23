@@ -72,7 +72,16 @@ font-size: larger;
     width: 50%;
 }
 
+.news111{
+    float: left;
+    border: solid;
+    margin-block-end: 3vh;
+     height: 35%;
+    width: 85%;
+}
+
 .bnews11{
+    float: left;
     align-content:baseline;
     padding: 0.2rem;
     width: 60%;
@@ -81,5 +90,9 @@ font-size: larger;
 
 .thumbnail51{
     width: 700px;
+    }
+
+    .contain{
+        text-align: left;
     }
     
