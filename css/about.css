@@ -8,7 +8,7 @@
 .logo{
     width: 250px;
     height: 60px;
-    margin-left: 39%;
+    margin-left: 41%;
     padding-bottom: 0px;
 }
 /* Logo Lokmat CSS End */
@@ -107,5 +107,6 @@ body{
 }
 body{
     font-family: Verdana, arial, sans-serif;
+    font-size: 1.1rem;
 }
 
