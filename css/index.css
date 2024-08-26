@@ -42,13 +42,6 @@
 }
 /* Nav Bar CSS End */
 
-.date{
-    display: flex;
-    justify-content: center;
-    color: rgb(80, 80, 80);
-    font-size: small;
-}
-
 /* .news1{
     float: left;
     margin-right: 10px;
@@ -207,6 +200,10 @@ div.gallery {
  
 }
 
-
-
-
+.date{
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 80, 80);
+    font-size: 0.9rem;
+    font-family: Verdana, arial, sans-serif;
+}

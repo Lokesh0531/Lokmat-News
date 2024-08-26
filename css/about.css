@@ -40,13 +40,6 @@
 /* Nav Bar CSS End */
 
 
-.date{
-    display: flex;
-    justify-content: center;
-    color: rgb(80, 80, 80);
-    font-size: small;
-}
-
 body{
     background-color: rgba(245, 237, 237, 0);
 }
@@ -110,3 +103,11 @@ body{
     font-size: 1.1rem;
 }
 
+
+
+.date{
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 80, 80);
+    font-size: 0.9rem;
+}
