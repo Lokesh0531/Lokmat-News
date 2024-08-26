@@ -196,6 +196,7 @@ div.gallery {
     height: 8.5rem;
     margin: 10px;
     border: 2px solid red;
+    transition: 1s ease-in-out;
 }
 
 .epaper:hover{
@@ -203,6 +204,7 @@ div.gallery {
     height: 9rem;
     margin: 10px;
     border: 2px solid red;
+    transform: rotate(-30deg);
  
 }
 
